@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
-    int x = input.nextInt();
+    int x = input.nextInt(); // for integer
     System.out.print(" Your entered number is : " + x);
     }
 }
@@ -19,3 +19,26 @@ class Main{
     System.out.print("Your entered number is : " + input.nextInt());
   }
 }
+
+// for decimal value
+
+import java.util.Scanner;
+public class Main{
+  public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+    Float x = input.nextFloat(); // decimal value
+    System.out.print("Your enterted value in decimal number: "+ x);
+  }
+}
+
+// for full line or string
+import java.util.Scanner;
+public class Main{
+  public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+    String y = input.nextLine(); // full line
+    System.out.print("Your enterted string is : "+ y);
+  }
+}
+
+/* we can have any data type like this perimitive data types */
