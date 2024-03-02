@@ -1,0 +1,30 @@
+// diving two number 
+
+
+// in intger output
+
+import java.util.*;
+public class Main{
+  public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+    System.out.print("Enter the two number to divided : ");
+    int a = input.nextInt();
+    int b = input.nextInt();
+    int c;
+    c = a/b;
+    System.out.println("the divided value is : "+ c);
+  }
+}
+
+// in correct float value in output
+import java.util.Scanner;
+  public class Main{
+    public static void main(String[] args){
+      Scanner input = new Scanner(System.in);
+      System.out.print("Enter the two number to divided : ");
+      int a = input.nextInt();
+      int b = input.nextInt();
+      float c = (float)a/b;
+      System.out.println("The value of the divded is : " + c);
+  }
+}
