@@ -1,7 +1,7 @@
 // diving two number 
 
 
-// in intger output
+// intger value in output
 
 import java.util.*;
 public class Main{
@@ -16,7 +16,7 @@ public class Main{
   }
 }
 
-// in correct float value in output
+// float value in output
 import java.util.Scanner;
   public class Main{
     public static void main(String[] args){
