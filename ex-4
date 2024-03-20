@@ -1,0 +1,62 @@
+/* using boolean data type */
+/* instend boolean we can use data type we want*/
+/* checking two numbers are same or not*/
+import java.util.*;
+class Main {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        int a= input.nextInt();
+        int b= input.nextInt();
+        boolean result = a!=b;
+        System.out.println(result);
+    }
+}
+
+/* checking two number is greater than first number are not*/
+import java.util.*;
+class Main {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        int a= input.nextInt();
+        int b= input.nextInt();
+        boolean result = a>b;
+        System.out.println(result);
+    }
+}
+
+/*checking two number is lessthan than first number are not*/
+import java.util.*;
+class Main {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        int a= input.nextInt();
+        int b= input.nextInt();
+        boolean result = a<b;
+        System.out.println(result);
+    }
+}
+
+/*checking two number is lessthan or equal too than first number are not*/
+
+import java.util.*;
+class Main {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        int a= input.nextInt();
+        int b= input.nextInt();
+        boolean result = a<=b;
+        System.out.println(result);
+    }
+}
+
+/* checking two number is greater than or equal too first number are not*/
+import java.util.*;
+class Main {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        int a= input.nextInt();
+        int b= input.nextInt();
+        boolean result = a>=b;
+        System.out.println(result);
+    }
+}
