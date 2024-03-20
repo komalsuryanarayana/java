@@ -1,5 +1,4 @@
 /* using boolean data type */
-/* instend boolean we can use data type we want*/
 /* checking two numbers are same or not*/
 import java.util.*;
 class Main {
