@@ -1,0 +1,12 @@
+// checking the number is odd or even without using if else statements
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        int x = input.nextInt();
+        String result;
+        result = x%2==0 ? "even" : "odd";
+        System.out.println("result:"+result);
+    }
+}
